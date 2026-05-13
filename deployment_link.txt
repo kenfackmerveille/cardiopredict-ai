@@ -1,0 +1,15 @@
+LIEN DE DÉPLOIEMENT — CardioPredict AI
+=======================================
+
+Colle ici ton lien Render après le déploiement.
+
+Exemple :
+https://cardiopredict-ai.onrender.com
+
+Instructions :
+1. Va sur https://render.com
+2. Crée un compte gratuit
+3. "New Web Service" → connecte ton repo GitHub
+4. Build Command  : pip install -r requirements.txt && python train_model.py
+5. Start Command  : streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+6. Copie le lien généré et remplace ce texte
